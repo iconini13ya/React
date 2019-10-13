@@ -3,7 +3,7 @@ import React from "react";
 const Profile = () => {
     return (
         <div className="content">
-        <img src="https://images.unsplash.com/photo-1500622944204-b135684e99fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80 "></img>
+        <img className= "Avatar" src="https://i.pinimg.com/236x/0c/05/9e/0c059e38fcf1fb9bbccf580302614246--dog-photos-dog-mom-pictures.jpg"></img>
         <div>ava+ discription</div>
       <div>My posts
         <div>new post</div>
