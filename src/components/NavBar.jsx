@@ -1,14 +1,14 @@
 import React from "react";
-
+import n from "./NavBar.module.css";
 const NavBar = () => {
     return (
 
-        <nav className="nav">
-            <a href="#">Profile</a>
-            <a href="#">Messages</a>
-            <a href="#">News</a>
-            <a href="#">Music</a>
-            <a href="#">Settings</a>
+        <nav className={n.nav}>
+            <a href="#S">Profile</a>
+            <a href="#S">Messages</a>
+            <a href="#S">News</a>
+            <a href="#S">Music</a>
+            <a href="#S">Settings</a>
         </nav>
 
     );
